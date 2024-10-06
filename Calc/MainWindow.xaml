@@ -29,5 +29,7 @@
         <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="340,360,0,0" Content="/" Click="Div_Click"></Button>
 
         <Label x:Name="example_label" Height="50" Width="430" HorizontalAlignment="Left" Margin="10,0,0,150" BorderBrush="Black" BorderThickness="2" FontFamily="bold" FontSize="26"></Label>
+        <Label Height="50" Width="430" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" FontFamily="bold" FontSize="26" Content="by Lirihiwa and Delor"></Label>
+        <Label Height="50" Width="430" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0" FontFamily="bold" FontSize="26" Content="Пример/Ответ"></Label>
     </Grid>
 </Window>
