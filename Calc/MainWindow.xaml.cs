@@ -127,12 +127,23 @@ namespace Calc
             }
             numbers.Add(currentNumber);
 
+            
+
             while(operators.Count != 0)
             {
                 bool containsMulOrDiv = operators.Contains('*') || operators.Contains('/');
                 
                 for (int i = 0; i < operators.Count; i++)
                 {                
+                    foreach(var n in numbers)
+                    {
+                        try
+                        {
+                            int num = Convert.ToInt32(n);
+                        }
+                        catch { return "Ошибка вычисления!"; }
+                    }
+
                     int num1 = Convert.ToInt32(numbers[i]);
                     int num2 = Convert.ToInt32(numbers[i + 1]);
                     int ans;
