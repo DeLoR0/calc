@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Calc
 {
-    /// <summary>
+    /// <summary> Привет Пока Привет Пока
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
