@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calc"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" ResizeMode="NoResize" Height="500" Width="460">
     <Grid>
-        
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" Content="1" Click="Button_1_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="120,0,0,0" Content="2" Click="Button_2_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="230,0,0,0" Content="3" Click="Button_3_Click"></Button>
+
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,120,0,0" Content="4" Click="Button_4_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="120,120,0,0" Content="5" Click="Button_5_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="230,120,0,0" Content="6" Click="Button_6_Click"></Button>
+
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,240,0,0" Content="7" Click="Button_7_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="120,240,0,0" Content="8" Click="Button_8_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="230,240,0,0" Content="9" Click="Button_9_Click"></Button>
+
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,360,0,0" Content="Удалить" Click="Delete_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="120,360,0,0" Content="0" Click="Button_0_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="230,360,0,0" Content="=" Click="Equal_Click"></Button>
+
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="340,0,0,0" Content="+" Click="Plus_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="340,120,0,0" Content="-" Click="Minus_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="340,240,0,0" Content="*" Click="Mult_Click"></Button>
+        <Button Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="340,360,0,0" Content="/" Click="Div_Click"></Button>
+
+        <Label x:Name="example_label" Height="50" Width="430" HorizontalAlignment="Left" Margin="10,0,0,150" BorderBrush="Black" BorderThickness="2" FontFamily="bold" FontSize="26"></Label>
     </Grid>
 </Window>
